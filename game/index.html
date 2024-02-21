@@ -6,15 +6,15 @@
     <title>Game Menghafal Pancasila</title>
     <style>
         #question {
-            font-size: 50px;
-            margin-bottom: 30px;
+            font-size: 20px;
+            margin-bottom: 10px;
         }
         #answer {
-            font-size: 30px;
-            margin-bottom: 40px;
+            font-size: 18px;
+            margin-bottom: 20px;
         }
         #result {
-            font-size: 44px;
+            font-size: 24px;
             font-weight: bold;
             color: blue;
         }
@@ -39,9 +39,6 @@
         var currentQuestion = 0;
         var score = 0;
 
-        // Mengacak urutan pertanyaan
-        questions.sort(() => Math.random() - 0.5);
-
         function displayQuestion() {
             document.getElementById("question").innerText = questions[currentQuestion].question;
             document.getElementById("answer").value = "";
@@ -61,12 +58,22 @@
             if (currentQuestion < questions.length) {
                 displayQuestion();
             } else {
-                document.getElementById("question").innerText = "Permainan Selesai!";
+                document.getElementById("question").innerText = "Permainan Selesai! Skor Akhir Anda: " + score;
                 document.getElementById("answer").style.display = "none";
+                document.getElementById("restartBtn").style.display = "inline";
             }
+        }
+
+        function restartGame() {
+            currentQuestion = 0;
+            score = 0;
+            document.getElementById("restartBtn").style.display = "none";
+            displayQuestion();
+            document.getElementById("answer").style.display = "inline";
         }
 
         displayQuestion();
     </script>
+    <button id="restartBtn" style="display: none;" onclick="restartGame()">Mulai Ulang</button>
 </body>
 </html>
