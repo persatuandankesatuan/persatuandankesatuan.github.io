@@ -1,6 +1,6 @@
 (function() {
   var questions = [{
-    question: "Berapa 2*5?",
+    question: "Apa yang dimaksud dengan kesatuan dalam konteks kewarganegaraan??",
     choices: [2, 5, 10, 15, 20],
     correctAnswer: 2
   }, {
