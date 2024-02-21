@@ -39,6 +39,9 @@
         var currentQuestion = 0;
         var score = 0;
 
+        // Mengacak urutan pertanyaan
+        questions.sort(() => Math.random() - 0.5);
+
         function displayQuestion() {
             document.getElementById("question").innerText = questions[currentQuestion].question;
             document.getElementById("answer").value = "";
