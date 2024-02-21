@@ -1,7 +1,7 @@
 (function() {
   var questions = [{
     question: "Apa yang dimaksud dengan kesatuan dalam konteks kewarganegaraan??",
-    choices: [2, 5, 10, 15, 20],
+    choices: [Keberagaman dan perbedaan di antara warga negara, 5, 10, 15, 20],
     correctAnswer: 2
   }, {
     question: "Berapa Hasil dari 3*6?",
