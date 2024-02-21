@@ -44,7 +44,7 @@ d. Pembagian dan segregasi di antara warga negara",
     
     // If no user selection, progress is stopped
     if (isNaN(selections[questionCounter])) {
-      alert('Please make a selection!');
+      alert('Jangan golput woy 😡😡😡! kalau ndak bisa tembak aja 🗿');
     } else {
       questionCounter++;
       displayNext();
