@@ -1,5 +1,5 @@
 (function() {
-  var questions = [{
+  let questions = [{
     question: "Apa yang dimaksud dengan kesatuan dalam konteks kewarganegaraan?
 a. Keberagaman dan perbedaan di antara warga negara
 b. Kerukunan dan keharmonisan di antara warga negara
