@@ -2,7 +2,7 @@ const quizData = [
   {
     question: 'Jika pada saat Pilpres 2024 salah satu temanmu yang mendukung Paslon dengan nomor urut yang berbeda denganmu karena menurutnya lebih baik, apa sikapmu terhadap temanmu tersebut?',
     options: ['Menghargai perbedaan pendapatnya', 'Menjauhinya', 'All In 02.', 'Menjelekkan Paslon yang ia dukung.'],
-    answer: 'Paris',
+    answer: 'Menghargai perbedaan pendapatnya',
   },
   {
     question: 'What is the largest planet in our solar system?',
