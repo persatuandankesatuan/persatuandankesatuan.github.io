@@ -55,7 +55,7 @@ const quizData = [
       'keputusan penting dibuat oleh pemerintahan',
       'seluruh wilayah negara mempunyai peraturan yang seragam',
       'Daerah menjadi perpanjangan tangan pemerintahan pusat',
-      'keputusan penting dibuat oleh pemerintahan',
+      'Daerah memiliki pemimpinnya sendiri',
     ],
     answer: 'Daerah menjadi perpanjangan tangan pemerintahan pusat',
   },
