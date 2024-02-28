@@ -189,3 +189,5 @@ retryButton.addEventListener('click', retryQuiz);
 showAnswerButton.addEventListener('click', showAnswer);
 
 displayQuestion();
+var elemen = document.getElementById('contohElemen');
+elemen.style.backgroundColor = '#FF0000';
