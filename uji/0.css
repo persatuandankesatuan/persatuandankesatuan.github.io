@@ -45,7 +45,7 @@ h1 {
   border-radius: 4px;
   transition: background-color 0.3s;
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .button:hover {
@@ -73,5 +73,5 @@ h1 {
   border-radius: 4px;
   transition: background-color 0.3s;
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
