@@ -64,7 +64,7 @@
         let currentPart = 1;
 
         function nextPart() {
-            document.getElementById('part' + currentPart).style.display = 'none'; // Hide current part
+            document.getElementById('part' + currentPart).style.display = 'block'; // Hide current part
             currentPart++; // Move to next part
             if (currentPart <= 4) {
                 document.getElementById('part' + currentPart).style.display = 'block'; // Show next part
