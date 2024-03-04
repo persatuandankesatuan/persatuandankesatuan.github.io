@@ -81,6 +81,15 @@
     <script>
         let currentPart = 1;
 
+         function prevPart() {
+            if (currentPart > 1) {
+                document.getElementById('part' + currentPart).style.display = 'none'; // Hide current part
+                currentPart--; // Move to previous part
+                document.getElementById('part' + currentPart).style.display = 'block'; // Show previous part
+                document.getElementById('nextButton').style.display = 'block'; // Show next button
+            }
+        }
+
         function nextPart() {
             document.getElementById('part' + currentPart).style.display = 'none'; // Hide current part
             currentPart++; // Move to next part
@@ -88,15 +97,6 @@
                 document.getElementById('part' + currentPart).style.display = 'block'; // Show next part
             } else {
                 document.getElementById('nextButton').style.display = 'none'; // Hide next button if end of story
-            }
-        }
-
-        function prevPart() {
-            if (currentPart > 1) {
-                document.getElementById('part' + currentPart).style.display = 'none'; // Hide current part
-                currentPart--; // Move to previous part
-                document.getElementById('part' + currentPart).style.display = 'block'; // Show previous part
-                document.getElementById('nextButton').style.display = 'block'; // Show next button
             }
         }
         function backToHome() {
