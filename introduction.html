@@ -74,6 +74,15 @@
                 document.getElementById('nextButton').style.display = 'none'; // Hide next button if end of story
             }
         }
+
+        function prevPart() {
+            if (currentPart > 1) {
+                document.getElementById('part' + currentPart).style.display = 'none'; // Hide current part
+                currentPart--; // Move to previous part
+                document.getElementById('part' + currentPart).style.display = 'block'; // Show previous part
+                document.getElementById('nextButton').style.display = 'block'; // Show next button
+            }
+        }
     </script>
 </body>
 </html>
