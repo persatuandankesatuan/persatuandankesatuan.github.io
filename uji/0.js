@@ -169,6 +169,7 @@ function showAnswer() {
   let incorrectAnswersHtml = '';
   for (let i = 0; i < incorrectAnswers.length; i++) {
     incorrectAnswersHtml += `
+      <image src="https://persatuandankesatuan.github.io/images/indicator.png" alt="" width="100%">
       <p>
         <strong>Question:</strong> ${incorrectAnswers[i].question}<br>
         <strong>Your Answer:</strong> ${incorrectAnswers[i].incorrectAnswer}<br>
