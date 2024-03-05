@@ -35,11 +35,11 @@ const quizData = [
     answer: 'Sumpah pemuda 28 Oktober 1928',
   },
   {
-    question: 'Bahwa Pancasila merupakan satu-satunya falsafah serta ideology bangsa dan negara, yang melandasi, membimbing dan megarahkan bangsa menuju tujuannya adalah perwujudan kepulauan nusantara sebagai satu kesatuan...',
+    question: 'Bahwa Pancasila merupakan satu-satunya falsafah serta ideologi bangsa dan negara, yang melandasi, membimbing dan megarahkan bangsa menuju tujuannya adalah perwujudan kepulauan nusantara sebagai satu kesatuan...',
     options: [
       'Ekonomi',
       'Pertahanan dan keamanan',
-      'Ekonomi',
+      'Budaya',
       'Politik',
     ],
     answer: 'Politik',
