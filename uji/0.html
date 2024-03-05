@@ -21,10 +21,14 @@
     </center>
   </div>
   <script src="0.js"></script>
-  <script>
-    function goBack() {
-      window.history.back();
-    }
-  </script>
+  
+<script>
+function goBack() {
+  var konfirmasi = confirm("Apakah Anda yakin ingin kembali?");
+  if (konfirmasi) {
+    window.location.href = "https://persatuandankesatuan.github.io";
+  }
+}
+</script>
 </body>
 </html>
