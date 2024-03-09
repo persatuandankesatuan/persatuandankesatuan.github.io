@@ -84,11 +84,7 @@ body {
 
 .header_section {
   background-color: #ffffff;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1100;
+  position: relative;
   -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 28.5% 100%, 26.5% 86%, 0 84%, 0 0);
           clip-path: polygon(50% 0%, 100% 0, 100% 100%, 28.5% 100%, 26.5% 86%, 0 84%, 0 0);
 }
